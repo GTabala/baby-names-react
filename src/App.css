@@ -1,5 +1,7 @@
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -36,3 +38,32 @@
     transform: rotate(360deg);
   }
 }
+
+.names {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: auto;
+  width: 80%;
+  border-radius: 10px;
+  border: solid lightblue 5px;
+  border-left: solid pink 5px;
+  border-top: solid pink 5px;
+  padding: 80px 20px 80px 20px;
+  margin-top: 100px;
+  }
+
+.f,
+.m {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: lightblue;
+}
+
+.f {
+  background-color: pink;
+}
+
+
