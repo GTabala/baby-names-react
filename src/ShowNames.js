@@ -56,7 +56,7 @@ const ShowNames = ({ names }) => {
   };
   return (
     <div className="names">
-      <Search checkNames={checkNames} chooseSex={chooseSex} />
+      <Search checkNames={checkNames} chooseSex={chooseSex} sex={sex} />
       <NameBox
         boxClassName="favorite"
         nameArray={favorites}

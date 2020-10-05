@@ -1,6 +1,6 @@
 import React from "react";
 
-const Search = ({ checkNames, chooseSex }) => {
+const Search = ({ checkNames, chooseSex, sex}) => {
   return (
     <form className="form">
       <input
@@ -14,6 +14,7 @@ const Search = ({ checkNames, chooseSex }) => {
         <input
           type="radio"
           id="chooseSex1"
+          checked={sex === "u"}
           value="u"
           name="sex"
           onChange={chooseSex}
