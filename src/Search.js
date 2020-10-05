@@ -11,11 +11,29 @@ const Search = ({ checkNames, chooseSex }) => {
         onChange={checkNames}
       />
       <div>
-        <input type="radio" id="chooseSex1" value="u" name="sex" onChange={chooseSex} />
+        <input
+          type="radio"
+          id="chooseSex1"
+          value="u"
+          name="sex"
+          onChange={chooseSex}
+        />
         <label for="chooseSex1">unisex</label>
-        <input type="radio" id="chooseSex2" value="f" name="sex" onChange={chooseSex} />
+        <input
+          type="radio"
+          id="chooseSex2"
+          value="f"
+          name="sex"
+          onChange={chooseSex}
+        />
         <label for="chooseSex1">female</label>
-        <input type="radio" id="chooseSex3" value="m" name="sex" onChange={chooseSex} />
+        <input
+          type="radio"
+          id="chooseSex3"
+          value="m"
+          name="sex"
+          onChange={chooseSex}
+        />
         <label for="chooseSex1">male</label>
       </div>
     </form>
